@@ -8,11 +8,10 @@ int main() {
 	int t; //quantidade de numeros
 	scanf("%i", &t);
 	
-	t = t-1;
-		
+	
 		int array[t];
 		int i = 0;
-		for (; i<=t; i++) {	
+		for (; i<t; i++) {	
 			scanf("%d", &array[i]); //usando o for para digitar valor de numeros dentro do array
 		}
 		int res = contaFrequencia(array, t)	;
